@@ -1,0 +1,15 @@
+# Type Conversion
+# Class types in Python
+# String
+#str()
+# Integer
+#int()
+# Float
+#float()
+# Boolean
+#bool()
+print(float(1))
+print('')
+print((bool(0)))
+
+type(1)

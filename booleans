@@ -1,0 +1,6 @@
+# Boolean Values
+
+value = True
+value2 = False
+
+print(bool(True))

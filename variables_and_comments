@@ -1,0 +1,30 @@
+# snake_case = variable_one
+# Start with lowercase or underscore
+# Cannot use keywords as a variable such as print, if, elif, and, so on.
+# Do not start with numbers, nor capitals N 1 varible
+
+a = 1
+b = a
+a = 'home'
+
+# If we print b we get 1
+print(b)
+# If we print a we get 'home'
+print(a)
+
+a,b,c=1,2,3
+print(a) # 1
+print(b) # 2
+print(c) # 3
+
+"""
+_ can also be used as a variable and generally means 
+the creator doesn't care about the name of the variable 
+they just need a variable
+"""
+_ = 0
+print(_)
+
+# This is bad because for cannot be used as a variable
+for = 'a'
+print(for)

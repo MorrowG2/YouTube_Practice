@@ -1,0 +1,20 @@
+from math import sqrt
+
+# Math functions
+# sum() - will sum the numbers
+# max() - will return the max value
+# min() - will return the min value
+# round() - will round the number to the nearest number (5 rounds up)
+# int() - will change the number to an integer (a whole number)
+# float() - will change the number to a float (a decimal 0.564 or 654564.6549, etc)
+# sqrt() - will return the square root of the number
+# abs() - will return a positive number - example abs(-30) = 30
+
+# [1243, 32412, 1, 13123, 235324]
+print(min([1243, 32412, 1, 13123, 235324])) # returns 1
+
+x = 144
+print(int(sqrt(x))) # returns 12
+
+print(float(abs(-40))) # returns 40
+

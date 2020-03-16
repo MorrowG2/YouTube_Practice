@@ -1,0 +1,26 @@
+# Try to adjsut the value associated with the key 'shrubs'
+
+forest = {'trees': 'are big oaks', 'bird_count': 45, 'flowers': ['Catmint', 'Cosmos', 'Bellflower'], 'shrubs': 'asdfads'}
+
+# print(forest.get('water', "there's a lake"))
+# print("-"*40)
+for keys, values in forest.items():
+    print(keys, values)
+
+# Rewrite each of the below items 50 times in consecutive order with the variable forest.
+
+# Example 1: print(forest.get('shrubs'), print(forset.update({'animal_fur': 'bushy things', 'trees': 'pine tree'}))
+
+# Example 2 
+# trees = forest.pop("trees")
+# print(forest)
+# print(trees)
+
+# .get()
+# .update({})
+# .pop()
+# del
+# .keys()
+# .values()
+# .items()
+# create your own dictionary with it's own for loop and loop through each key and value

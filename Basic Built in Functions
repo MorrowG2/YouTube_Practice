@@ -1,0 +1,20 @@
+
+# Built in Functions Python
+ask = 'Please enter your age. '
+print(input(ask))
+input(ask)
+
+# How does each of the below functions work?
+# str()
+# len()
+# input()
+# int()
+# float()
+# type()
+# bool()
+
+
+# Will go over the below in another video
+# enumerate()
+# zip()
+# range()

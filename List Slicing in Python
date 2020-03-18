@@ -1,0 +1,16 @@
+# Lists in Python and List Slices
+
+variable = ['apples', 'oranges', 123, True]
+
+new_variable = variable
+
+# We update index 2 in the list from oranges to bananas
+new_variable[2] = 'bananas'
+print(new_variable)
+
+# Create list
+# Slice [0:5]
+# Remeber [start:stop(up to but not including):steps(1 is default)]
+# Slice updates variable[0]=""
+# Variblae = variable
+# Variable[0] = 'new_item'

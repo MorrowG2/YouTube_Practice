@@ -1,0 +1,15 @@
+# Basic built in string methods
+
+water = "that's a nice waterbottle."
+
+print('I was thinking about {}'.format(water))
+
+# .upper() - will capitalize all values
+# .lower() - will lowercase all values
+# .capitalize() - will capitalize the value (think proper sentence format)
+# .find() - will find the first index position in the object (variable)
+# .replace() - will replace old value with new value 
+# Example: .replace('old', 'new') - 'new' is now in place of 'old'
+# .format() - will add the value to the string where the {} are used. 
+# Example: "Hello {}".format(water) = "Hello that's a nice waterbottle"
+

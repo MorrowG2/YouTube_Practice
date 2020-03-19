@@ -1,0 +1,9 @@
+# Matrix 2D-Array in Python
+
+matrix = [
+    [1,1,9],
+    [1,0,1],
+    [5,1,1]
+]
+
+print(matrix[2][0])

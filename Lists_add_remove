@@ -1,0 +1,44 @@
+# List Methods
+# For more info: https://www.w3schools.com/python/python_lists.asp
+
+my_list = [1,2,3,4,5,6,7]
+
+
+# add
+# .append()
+# .insert(0,5) # What is 0 and what is 5? More questions below.
+# .extend()
+#
+# remove
+# .pop(index)
+# .pop() 2x
+# .remove(actual value)
+# .clear
+
+
+##################### Exercises - Try creating at minimum 3 new lists
+
+# Add the below items to a new list
+# example: new_list = []
+# 1. add --- 'bananas', 'pineapple', 'tomato', 'tortilla', 'beans', 'guac'
+# 2. add the following to a different list ---- False, True, 123, 'bloop'
+# 3. add the following to a different list ---- '?', "(*-*)", '(^_^)', "('')_(^_^)_('')",
+# 4. add the following to a different list ---- 'blue', 'yellow', 'green', 123, True
+# -------------------------------------------------------------------------------------------------------------------
+# 5. add the following to a list of your choosing at any index position ---- 'booklet', 'Fireball', 'coffee_mug'
+# 6. add the following to a list of your choosing at any index position ----- 'titan', 'doodle', '123546', 'True'
+# 7. add the following to a list of your choosing at any index position ----- '</>', 'File not found.', 'Hello there!'
+# -------------------------------------------------------------------------------------------------------------------
+# 8. A.) add 2 lists together B.) Next, add the same two lists to a third list C.) add the lists in reverse order
+# -------------------------------------------------------------------------------------------------------------------
+# 9. What does .pop() do? Can it hold a value?
+# 10. What do two .pop() do? Example my_list.pop()
+#                                     my_list.pop()
+#                          What does the above do?
+# 11. Remove any of the above items with .pop(). (Can you remove a specific index?) Try moving all integers from your lists
+# -------------------------------------------------------------------------------------------------------------------
+# 12. Remove an item from one of your lists
+# 13. Remove two items from a different list
+# -------------------------------------------------------------------------------------------------------------------
+# 14. Remove all items from a list
+# 15. Remove all items from a second list

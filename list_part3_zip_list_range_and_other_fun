@@ -1,0 +1,81 @@
+# Lists Part 3
+
+a,b,c, *remainder = [1,2,3,4,5,6,7,8]
+
+print(a)
+print(b)
+print(c)
+print(remainder)
+
+# Reverse with -1
+# .reverse() or [::-1] or -x
+# list() with range(0,100,-1)
+# range in steps?
+# .join()
+# zip()
+# unpacking lists (need new list for this)
+
+# 1. Reverse the order of the below lists
+# ['Over', 'Blue', 'Tyrion', 'Sound', 'Cloud_9', 'Mug', 1, 2, 3]
+# ['road', 'brick', 'yellow','the','Down']
+# ['(^_^)', '(*_*)', "('-')", "('')_(*_*)_('')"]
+# [66,44,22,'World','Hello']
+# [1,2,3,4,5,6,7,8]
+# ['Few', 'Yellow', True, 101, False, 'Egg', 'Easter', 'Banana']
+# ------------------------------------------------------------------------------------------------------
+# 2. Convert the following into a list
+# ('Over', 'Blue', 'Tyrion', 'Sound', 'Cloud_9', 'Mug', 1, 2, 3)
+# {'road', 'brick', 'yellow','the','Down'}
+# {'(^_^)', '(*_*)', "('-')", "('')_(*_*)_('')"}
+# {66,44,22,'World','Hello'}
+# (1,2,3,4,5,6,7,8)
+# ('Few', 'Yellow', True, 101, False, 'Egg', 'Easter', 'Banana')
+# range(100)
+# range(1,100, 2)
+# range(1,100, -1)
+# range(1, 100, -2)
+# ------------------------------------------------------------------------------------------------------
+# 3. What does range() do? Try the below.
+# for i in range(100):
+#     print(i)
+# ------------------------------------------------------------------------------------------------------
+# 4. Can you use .join() with integers and strings?
+# What about integers and booleans?
+# What about just integers?
+# oscar = ['h', 'o', 'h', 'o', 'h', 'o']
+# What does ' '.join(oscar) do?
+# ------------------------------------------------------------------------------------------------------
+# 5. zip() How can you use zip() with the below lists? Remember list() will turn the values into a list.
+# blue = ['Over', 'Blue', 'Tyrion', 'Sound', 'Cloud_9', 'Mug', 1, 2, 3]
+# yellow = ['road', 'brick', 'yellow','the','Down']
+# green = ['(^_^)', '(*_*)', "('-')", "('')_(*_*)_('')"]
+# red = [66,44,22,'World','Hello']
+# pink = list((1,2,3,4,5,6,7,8))
+# final = list(('Few', 'Yellow', True, 101, False, 'Egg', 'Easter', 'Banana'))
+# trial = list(range(100))
+# epic = range(1,100, 2)
+# transform = list(range(1,100, -1))
+# yep = list(range(1, 100, -2))
+
+# Example:
+epic = range(1,100, 2)
+my_list = range(1, 100, 2)
+together = list(zip(epic, my_list))
+print(together)
+
+# tip rather than list(), you can also use tuple()
+# 2.1 Zip each of the variables above together in sets of 2, 3, 4, and so on. Can you zip all of the variables?
+
+
+# ------------------------------------------------------------------------------------------------------
+# 3. Use the lists above and unpack them. 
+# How could you unpack each list? 
+# Do you need a *, or a,b,c,d?
+# How many positions are held within each list? 
+# How many variables can be assigned to each list?
+# ------------------------------------------------------------------------------------------------------
+# 4. Additional Practice - Delete all of the lists above and create your own lists to practice with.
+
+
+
+

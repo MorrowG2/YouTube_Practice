@@ -1,0 +1,41 @@
+# List Methods Part 2
+
+my_list = ['z', 'f', 'a', 'b', 'c']
+
+print(my_list.index('z', 0, 5))
+my_list.sort()
+print(my_list.reverse())
+print(my_list)
+
+# .index()
+# in
+# .count()
+# .sort()
+# New array
+# sorted()
+# .copy() and [:]
+# .reverse()
+
+# Add the below items to a new list
+# example: new_list = []
+# 0. use .append() to add the items below to a new_list, cool_list or whatever list you want to create
+# 1. add --- 'bananas', 'pineapple', 'tomato', 'tortilla', 'beans', 'guac'
+# 2. add the following to a different list ---- False, True, 123, 'bloop'
+# 3. add the following to a different list ---- '?', "(*-*)", '(^_^)', "('')_(^_^)_('')",
+# 4. add the following to a different list ---- 'blue', 'yellow', 'green', 123, True
+# -------------------------------------------------------------------------------------------------------------------
+# 5. locate the following items at their proper index position (use: (object, start, stop)) ---- 'bananas', 'pineapple', 'tomato', 'tortilla', 'beans', 'guac'
+# 6. locate the following items at their proper index position (use: (object, start, stop)) ----- False, True, 123, 'bloop'
+# 7. locate the following items at their proper index position (use: (object, start, stop)) ----- '?', "(*-*)", '(^_^)', "('')_(^_^)_('')",
+# -------------------------------------------------------------------------------------------------------------------
+# 8. Can you locate if the following items are IN the proper list?
+# 'bananas', 'pineapple', 'tomato', 'tortilla', 'beans', 'guac', 'blue', 'yellow', 'green', 123, True, False, True, 123, 'bloop'
+# -------------------------------------------------------------------------------------------------------------------
+# 9. What is the number of occurances of the following items in each list? (How would you count them?)
+# 'bananas', 'pineapple', 'tomato', 'tortilla', 'beans', 'guac', 'blue', 'yellow', 'green', 123, True, False, True, 123, 'bloop'
+# -------------------------------------------------------------------------------------------------------------------
+# 10. What's the difference between .sort() and sorted()
+# Which sort is permanent? Which sort is temporary? Which sort returns a NONE value?
+# -------------------------------------------------------------------------------------------------------------------
+# 11. How can you use a copy of a list with .sort()?
+# 12. How can you copy a list and then sort it in reverse order?

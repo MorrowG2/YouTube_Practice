@@ -1,0 +1,74 @@
+# Sets
+# An unordered pair of UNIQUE objects
+
+my_set = {1,2,3,4,5,5}
+print(my_set.add(480))
+print(my_set.add(410))
+print(my_set.add(420))
+print(my_set.add(450))
+print(my_set)
+
+set2 = my_set.copy()
+print("-"*40)
+set2.add(500)
+print(set2)
+print("-"*40)
+new_variable = my_set.clear()
+print(new_variable)
+print("-"*40)
+print(my_set)
+
+print("-"*40)
+my_set.add(500)
+print(my_set)
+
+print("-"*40)
+
+my_list = [1,2,3,4,5,5]
+print(set(my_list))
+
+# No Key Value Pairs, just values
+
+# .add()
+# set() - useful when considering "primary keys" - username - email - ssn
+# index = [] VS "in" keyword -- link in the discription that there are addiontal keywords
+# len()
+# list() w/ a new variable
+# .copy() and .clear()
+
+
+# ---------------------------------------------------------------------------------------------------
+# Need to come up with questions for the above
+
+
+
+# 1. Can you think of any metaphors for a tuple?
+# 2. Which is faster a tuple or a list?
+# 3. What is an immutable item? (In programming.)
+# ---------------------------------------------------------------------------------------------------------------
+# 4. Create 8 tuples with different variables
+# Example:
+# my_tuple = (1, 2, 3, 4, 5)
+# Note: Tuples are just like lists, but Tuples are faster and immutable
+# You can use strings, integers, and boolean values.
+# ---------------------------------------------------------------------------------------------------------------
+# 5. For this task, your goal is to return a boolean value (True/False)
+# Check to see if the tuples you've created are in... cough, cough, your tuple:
+# Check each of the values (1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 's', 'e', 'i', "('_')", "(*-*)", ':P')
+# ---------------------------------------------------------------------------------------------------------------
+# 6. What does * do? Do you need to use * with a variable?
+# Use the 8 tuples you've created and bind each value to a separate variable
+# Delete two variables from each of the 8 tuples and use * with a variable to view the values as a list.
+# Look at the very top of this script to see my example of how to use *
+# ---------------------------------------------------------------------------------------------------------------
+# 7. How many times does the following values show in your 8 tuples? What's the number of occurrence? (Pretty
+# much asking the same question but trying to "HINT" the proper method to use.)
+# How often do the following show in your code?
+# (1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 's', 'e', 'i', "('_')", "(*-*)", ':P')
+# ---------------------------------------------------------------------------------------------------------------
+# 8. Use the values below to see which 'position' each value shows up in your 8 tuples.
+# (1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 's', 'e', 'i', "('_')", "(*-*)", ':P')
+# ---------------------------------------------------------------------------------------------------------------
+# 9. Count the total number of values in each tuple.
+# What might the length of each tuple be?
+# How could you count it? (The length)

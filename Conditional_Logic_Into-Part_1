@@ -1,0 +1,179 @@
+# Conditional Logic
+
+# Code used in the YouTube video
+# Check out the following link for more info on keywords in Python:
+# https://www.w3schools.com/python/python_ref_keywords.asp
+
+# For more info on conditions in Python:
+# https://www.w3schools.com/python/python_conditions.asp
+
+# of_age = 21
+# not_of_age = False
+# second_elif = False
+#
+# if of_age is 21:
+#     print('You may enter the bars.')
+#
+# elif not_of_age:
+#     print("This is the scope of the elif")
+#
+# elif second_elif:
+#     print("This is the scope of the 2nd elif")
+#
+# else:
+#     print('This is the scope of else.')
+
+
+
+# if, elif, else keywords
+# Basics of scope
+# Boolean Values True/False
+# Create some questions
+
+# ---------------------------------------------------------------------------------
+# Questions
+#
+# 1. Adjust the variables to print out the following statement
+# 'This is the scope of the 2nd elif condition.'
+# ---------------------------------------------------------------------------------
+# 2. Adjust the variables to print out the 'else condition'
+# ---------------------------------------------------------------------------------
+# 3. Consider what will be printed out in the "scope" of the "if" keyword if it is True?
+# ---------------------------------------------------------------------------------
+variable_1 = True
+variable_2 = True
+variable_3 = True
+variable_4 = True
+
+if variable_1:
+    print('This is the scope of the if condition.')
+elif variable_2:
+    print('This is the scope of the 1st elif condition.')
+elif variable_3:
+    print('This is the scope of the 2nd elif condition.')
+elif variable_4:
+    print('This is the scope of the 3rd elif condition.')
+else:
+    print('This is the scope fo the else condition.')
+
+# ---------------------------------------------------------------------------------
+# The below questions are Advanced and they were not covered in the video.
+# ---------------------------------------------------------------------------------
+# We did not go over the below questions but they are important and the answers can be found at the ANSWERS SECTION
+# 4. Can you print out BOTH an 'elif' and an 'if' statement?
+# (HINT) - When in doubt RUN the CODE
+# ---------------------------------------------------------------------------------
+# 5. Can you have an 'if' statement inside of an 'if' statement?
+# I briefly covered this.
+# There will be a follow-up video to cover scope within a scope.
+# Run the code in the examples below and try to figure out why the conditions are triggerd.
+
+
+# ANSWERS SECTION -
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+# 1.
+# variable_1 = False
+# variable_2 = False
+# variable_3 = True
+# variable_4 = False
+# ---------------------------------------------------------------------------------
+# 2.
+# variable_1 = False
+# variable_2 = False
+# variable_3 = False
+# variable_4 = False
+# ---------------------------------------------------------------------------------
+# 3. If the "if" keyword is True then
+# 'This is the scope of the 'if' condition.' - will be printed out
+# ---------------------------------------------------------------------------------
+# 4. Only ONE condition will be triggered if the condition is TRUE.
+# An 'elif' and an 'if' statement cannot both be triggered even if they are BOTH TRUE.
+# If BOTH are TRUE, then the FIRST condition (the condition on ABOVE the other condition) will be triggered
+# and the SECOND (BOTTOM) condition will be skipped over.
+# ---------------------------------------------------------------------------------
+# The below examples are Advanced and they were not covered in the video.
+# ---------------------------------------------------------------------------------
+# 5. Yes, you can have an 'if' statement inside of an 'if' statement and you can have an
+# 'if' statement inside of all other statements
+
+# There are 3 examples below showing an 'if' statement inside of additional statements.
+# Take your time with the below. Digest it. Run the code.
+
+# Why is the second 'if' condition being triggered for each example below?
+# ---------------------------------------------------------------------------------
+
+# # Example 1 ---- *When in doubt run the code.*
+# of_age2 = True
+# if of_age2:
+#     print('This is True.')
+#     x = 0
+#     if x is 1:
+#         print("X = 0")
+#     else:
+#         print("Not today.")
+# else:
+#     print('This is not true')
+# ---------------------------------------------------------------------------------
+# # Example 2 --- *When in doubt run the code.*
+# of_age2 = False
+# not_of_age = True
+#
+# if of_age2: # This is False so the scope will be skipped.
+#     print('This is True.')
+#     x = 0
+#     if x is 1:
+#         print("X = 0")
+#     else:
+#         print("Not today.")
+#
+# elif not_of_age: # This is True so the scope will be called.
+#     print('You are not of age.')
+#     x = 2
+#     if x is 2: # This is True, x does = 2
+#         print("Yep, x is 2")
+#         # Notice there is NO "else" statement. We do not need an "else" statement with an "if" statement.
+#         # It is good practice to use an "else", but you do not need an "else" statement
+# else:
+#     print('This is not true')
+# ---------------------------------------------------------------------------------
+# # Example 3 --- *When in doubt run the code.*
+# of_age2 = False
+# not_of_age = False
+#
+# if of_age2: # This is False so the scope will be skipped.
+#     print('This is True.')
+#     x = 0
+#     if x is 1:
+#         print("X = 0")
+#     else:
+#         print("Not today.")
+#
+# elif not_of_age: # This is True so the scope will be called.
+#     print('You are not of age.')
+#     x = 2
+#     if x is 2: # This is True, x does = 2
+#         print("Yep, x is 2")
+#         # Notice there is NO "else" statement. We do not need an "else" statement with an "if" statement.
+#         # It is good practice to use an "else", but you do not need an "else" statement
+# else:
+#     print('This is not true')
+#     y = 0
+#     if y is 0:
+#         print("The 'else' scope is being printed. Even though the 'if' scope has been called.")
+#         print("The 'if' scope is inside of the 'else' scope. Essentially a scope within a scope.")
+
+# ---------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------
+
+# Bonus - Can you adjust the variable of each example above to have a different condition triggered?
+# Can you create your own example of a scope within a scope?

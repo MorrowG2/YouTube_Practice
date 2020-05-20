@@ -38,37 +38,33 @@ print(set(my_list))
 
 
 # ---------------------------------------------------------------------------------------------------
-# Need to come up with questions for the above
-
-
-
-# 1. Can you think of any metaphors for a tuple?
-# 2. Which is faster a tuple or a list?
-# 3. What is an immutable item? (In programming.)
+# 1. What do Sets do in Python? They return ... (answer here)
+# 2. This open ended question) Can you think of ways to use a Set in your own algorithm?
 # ---------------------------------------------------------------------------------------------------------------
-# 4. Create 8 tuples with different variables
+# 3. How can you add an item to a Set?
+# 4. Create 2-5 Sets with different variables
 # Example:
-# my_tuple = (1, 2, 3, 4, 5)
-# Note: Tuples are just like lists, but Tuples are faster and immutable
-# You can use strings, integers, and boolean values.
+# my_set = {1, 2, 3, 4, 5, 5, 6, 8, 9, 10, 11, 5, 4, 8}
+# my_set2 = {}
 # ---------------------------------------------------------------------------------------------------------------
-# 5. For this task, your goal is to return a boolean value (True/False)
-# Check to see if the tuples you've created are in... cough, cough, your tuple:
-# Check each of the values (1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 's', 'e', 'i', "('_')", "(*-*)", ':P')
+# Can use strings, integers, and boolean values in a Set?
+# Test the above by adding 2-8 string values to your Set. What about a boolean? Can you add a boolean to your Set? (Booleans are True/False)
+# Bit of a trick question below.
+# 5. What happens when you print(my_set2.add(33)) and why is the output returned? Is an action taken? Is a value returned?
+# If you get an error why do you think that it?
+#
+# 6. Is a value returned when your print the below?
+# my_set3 = {1}
+# print(my_set3.add(33))
+# 7. What action is performed when you print the above?
 # ---------------------------------------------------------------------------------------------------------------
-# 6. What does * do? Do you need to use * with a variable?
-# Use the 8 tuples you've created and bind each value to a separate variable
-# Delete two variables from each of the 8 tuples and use * with a variable to view the values as a list.
-# Look at the very top of this script to see my example of how to use *
+# 8. How can you turn my_set3 into a list?
+# 9. What keyword can you use to identify if an object/value is in a Set?
+# 10. In a List: Remeber a List is - my_list = [1,2,3] - Can you use an index to identify a value in a Set? 
+# AN index is -                       my_list[2]
+# Can you perform the above in a Set to identify a value?
 # ---------------------------------------------------------------------------------------------------------------
-# 7. How many times does the following values show in your 8 tuples? What's the number of occurrence? (Pretty
-# much asking the same question but trying to "HINT" the proper method to use.)
-# How often do the following show in your code?
-# (1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 's', 'e', 'i', "('_')", "(*-*)", ':P')
-# ---------------------------------------------------------------------------------------------------------------
-# 8. Use the values below to see which 'position' each value shows up in your 8 tuples.
-# (1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 's', 'e', 'i', "('_')", "(*-*)", ':P')
-# ---------------------------------------------------------------------------------------------------------------
-# 9. Count the total number of values in each tuple.
-# What might the length of each tuple be?
-# How could you count it? (The length)
+# 11. For this task, return the length of the following Set
+# my_set4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 'a', 'b', 'c', 's', 'e', 'i', "('_')", "(*-*)", ':P'}
+# 12. How can you copy the above Set?
+# 13. How can you clear the copy of the above Set?

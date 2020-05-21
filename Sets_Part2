@@ -1,0 +1,54 @@
+# Sets
+# An unordered pair of UNIQUE objects
+
+# set_1 = {'a', 'b', 'c'}
+# set_2 = {'c', 'd', 'e', 'f', 'g', 'h'}
+
+print(set_1.union(set_2))
+
+# https://www.w3schools.com/python/python_ref_set.asp
+# -------------------------------
+# .difference()
+# .discard()
+# .difference_update()
+# .intersection()
+# .isdisjoint()
+# .issubset()
+# .issuperset()
+# .union()
+
+# ---------------------------------------------------------------------------------------------------------------
+# set_1 = {'a', 'b', 'c', 'v', 'w', 'p'. 'e', 't'}
+# set_2 = {'c', 'd', 'e', 'f', 'g', 'h', 'n', 's'}
+# 1. How can you identify the different objects between set_1 and set_2?
+# 2. What happens when None is returned as an output?
+# 3. How can you get rid of an object in a set?
+#    Remove 'a' from set_1 and 's' from set_2
+#    How can you remove 'c'
+# 4. If you remove an object from a Set is the removal permanent? When is it not permanent?
+# 5. What is the difference between .discard() and .difference_update()?
+# ---------------------------------------------------------------------------------------------------------------
+# 6. How can you identify the overlap between the two sets below?
+# one_set = {1,2,3,4,8,9,7,4,2,1}
+# two_set = {1,2,5,7,3,8,9,3}
+#
+# 7. How can you idetnify if a Set has values that are shared with another Set? How can you return a boolean value?
+# ---------------------------------------------------------------------------------------------------------------
+# 8. Is one_set a subset of two_set?
+# Which items would need to be removed/added to make one_set a subset of two_set?
+# 9. Is one_set a superset of two_set?
+# Which items would need to be removed/added to make one_set a superset of two_set? 
+# 10. What is the difference between a subset and a superset?
+# ---------------------------------------------------------------------------------------------------------------
+# 11. What could you do to join the two sets below together?
+# three_set = {'a', 'b', 'c'}
+# four_set = {'d', 'e', 'f', 'g', 'h', 'i'}
+#
+#
+# 12. What method or function could you use to organize the joined sets?
+# This topic was not covered in the video but it is possible to organize the output to look like -  
+# {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'}
+#
+#
+#
+# HINT  - the method and function both begin with the letter s
